@@ -12,11 +12,13 @@
 .app-header h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  color: #ff9900;
+  color: #0f172a;
+  font-weight: 800;
+  letter-spacing: -0.5px;
 }
 
 .app-header p {
-  color: #666;
+  color: #64748b;
   font-size: 0.95rem;
 }
 
@@ -33,7 +35,7 @@
   min-width: 250px;
   max-width: 400px;
   padding: 0.7rem 1rem;
-  border: 2px solid #e0e0e0;
+  border: 2px solid #e2e8f0;
   border-radius: 8px;
   font-size: 1rem;
   outline: none;
@@ -41,12 +43,12 @@
 }
 
 .search-input:focus {
-  border-color: #ff9900;
+  border-color: #f59e0b;
 }
 
 .category-select {
   padding: 0.7rem 1rem;
-  border: 2px solid #e0e0e0;
+  border: 2px solid #e2e8f0;
   border-radius: 8px;
   font-size: 1rem;
   background: white;
@@ -64,24 +66,26 @@
   background: white;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
   transition: transform 0.2s, box-shadow 0.2s;
   text-decoration: none;
   color: inherit;
   display: flex;
   flex-direction: column;
+  border: 1px solid #f1f5f9;
 }
 
 .affiliate-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08), 0 4px 10px rgba(0, 0, 0, 0.04);
+  border-color: #f59e0b;
 }
 
 .card-image {
   position: relative;
   width: 100%;
   height: 200px;
-  background: #f5f5f5;
+  background: #f8fafc;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,14 +102,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #bbb;
+  color: #cbd5e1;
 }
 
 .card-category {
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
-  background: #ff9900;
+  background: #f59e0b;
   color: white;
   padding: 0.25rem 0.6rem;
   border-radius: 6px;
@@ -123,12 +127,13 @@
 .card-body h3 {
   font-size: 1rem;
   margin-bottom: 0.4rem;
-  color: #111;
+  color: #0f172a;
+  font-weight: 600;
 }
 
 .card-body p {
   font-size: 0.85rem;
-  color: #666;
+  color: #64748b;
   margin-bottom: 0.8rem;
   flex: 1;
 }
@@ -142,12 +147,12 @@
 .card-price {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #b12704;
+  color: #dc2626;
 }
 
 .card-cta {
   font-size: 0.85rem;
-  color: #ff9900;
+  color: #f59e0b;
   font-weight: 600;
 }
 
@@ -156,14 +161,14 @@
   grid-column: 1 / -1;
   text-align: center;
   padding: 3rem;
-  color: #888;
+  color: #94a3b8;
 }
 
 .app-footer {
   text-align: center;
   margin-top: 3rem;
   padding-top: 1.5rem;
-  border-top: 1px solid #eee;
-  color: #999;
+  border-top: 1px solid #e2e8f0;
+  color: #94a3b8;
   font-size: 0.8rem;
 }

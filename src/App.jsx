@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>🛒 Ofertas Recomendadas</h1>
+        <h1>Master Shopping Pro</h1>
         <p>Productos seleccionados para ti — precios y disponibilidad sujetos a cambio</p>
       </header>
 
