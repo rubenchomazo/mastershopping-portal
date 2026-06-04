@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { fetchAffiliateLinks } from './services/googleSheets'
 import AffiliateCard from './components/AffiliateCard'
+import logo from './assets/mastershoppingpro.png'
 import './App.css'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
+        <img src={logo} alt="Master Shopping Pro" className="app-logo" />
         <h1>Master Shopping Pro</h1>
         <p>Productos seleccionados para ti — precios y disponibilidad sujetos a cambio</p>
       </header>
@@ -60,9 +62,7 @@ function App() {
         )}
       </section>
 
-      <footer className="app-footer">
-        <p>Algunos enlaces son de afiliados de Amazon. Recibimos una comisión sin costo extra para ti.</p>
-      </footer>
+
     </div>
   )
 }
