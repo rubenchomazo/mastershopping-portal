@@ -28,6 +28,8 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+        env:
+          VITE_SHEET_CSV_URL: ${{ vars.VITE_SHEET_CSV_URL }}
 
       - uses: actions/configure-pages@v4
 
