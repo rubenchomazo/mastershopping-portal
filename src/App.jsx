@@ -30,7 +30,7 @@ function App() {
       <header className="app-header">
         <img src={logo} alt="Master Shopping Pro" className="app-logo" />
         <h1>Master Shopping Pro</h1>
-        <p>Productos seleccionados para ti — precios y disponibilidad sujetos a cambio</p>
+        <p>Recomendados del día — Precios y stock actualizados en tiempo real por Amazon.</p>
       </header>
 
       <div className="app-controls">
