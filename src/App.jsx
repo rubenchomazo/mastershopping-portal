@@ -62,7 +62,9 @@ function App() {
         )}
       </section>
 
-
+      <footer className="app-footer">
+        <p>© 2026 Master Shopping Pro</p>
+      </footer>
     </div>
   )
 }
