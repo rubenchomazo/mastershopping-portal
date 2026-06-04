@@ -1,3 +1,11 @@
+:root {
+  --primary-dark: #58185D;
+  --accent-pink: #E64A8D;
+  --medium-purple: #D496D8;
+  --bg-light: #F3C5E9;
+  --white: #FFFFFF;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +14,8 @@
 
 body {
   font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
-  background: #f8f9fa;
-  color: #333;
+  background: var(--white);
+  color: var(--primary-dark);
   line-height: 1.5;
 }
 
