@@ -171,6 +171,42 @@
   color: var(--medium-purple);
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--medium-purple);
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--primary-dark);
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.pagination button:hover:not(:disabled) {
+  border-color: var(--accent-pink);
+  color: var(--accent-pink);
+}
+
+.pagination button.active {
+  background: var(--accent-pink);
+  border-color: var(--accent-pink);
+  color: var(--white);
+}
+
+.pagination button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
 .app-footer {
   text-align: center;
   margin-top: 3rem;
